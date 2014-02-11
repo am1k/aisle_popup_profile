@@ -1,0 +1,238 @@
+@import "reset.css";
+body {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+#wrapper {
+    width: 982px;
+    height: 913px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 3px;
+}
+header {
+    width: 100%;
+    height: 125px;
+    overflow: hidden;
+    color: #666;
+}
+.close-arrow {
+    width: 11px;
+    height: 11px;
+    float: right;
+    margin: 17px 21px;
+}
+.content-head {
+    width: 940px;
+    height: 78px;
+    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
+    overflow: hidden;
+    margin: 45px 21px 0 21px;
+}
+.info {
+    width: 675px;
+    height: 100%;
+    overflow: hidden;
+    border-right: 1px solid #d5d5d5 ;
+}
+.info h3 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.info-contact {
+    display: inline-block;
+    padding-right: 40px;
+    padding-top: 16px;
+    font-size: 16px;
+}
+.info-contact:nth-of-type(2) img {
+     margin: 3px 5px 0 0 ;
+     vertical-align: top;
+}
+.info-contact:nth-of-type(3) img {
+    margin: 0 5px 0 0 ;
+    vertical-align: top;
+}
+.button {
+    overflow: hidden;
+    float: right;
+    width: 265px;
+    height: 55px;
+    margin: -56px 0 0 0;
+
+}
+.bookmark {
+    width: 120px;
+    height: 30px;
+    float: left;
+    margin-left: 17px;
+
+}
+.bookmark-button {
+    border: 1px solid #2f80e4;
+    background: #fff;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #2f80e4;
+}
+.bookmark-button:hover {
+    border: 1px solid #2f80e4;
+    background: #2f80e4;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+}
+.connect {
+    width: 120px;
+    height: 30px;
+    float: right;
+}
+.connect-button {
+    border: 1px solid #dd0017;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #fff;
+    color: #dd0017;
+    background-repeat: no-repeat;
+    background-image: url("img/plus.png");
+    background-position: 15px 10px ;
+}
+.connect-button:hover {
+    border: 1px solid #dd0017;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #dd0017;
+    color: #fff;
+}
+#main-content {
+    width: 940px;
+    height: 370px;
+    overflow: hidden;
+    margin: 0 21px;
+    border-bottom: 1px solid #d5d5d5;
+    padding-bottom: 20px;
+}
+.main-image {
+    width: 350px;
+    height: 350px;
+    padding: 20px 0 0 0;
+    overflow: hidden;
+    float: left;
+}
+.about {
+    overflow: hidden;
+    float: right;
+    width: 560px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d5d5d5;
+    color: #666;
+    font-size: 12px;
+}
+.about h3 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.more-images {
+    width: 560px;
+    overflow: hidden;
+    float: right;
+    color: #666;
+}
+.more-images h3 {
+    font-size: 22px;
+    margin: 21px 0;
+    height: 23px;
+}
+.more-images p {
+    width: 130px;
+    height: 129px;
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    margin-right: 7px;
+}
+.more-images p:hover {
+    width: 130px;
+    height: 129px;
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #d5d5d5;
+    box-sizing: border-box;
+    margin-right: 7px;
+}
+.more-images img {
+    height: 124px;
+    width: 124px;
+}
+.color {
+    color: red;
+}
+.more-images p:nth-of-type(4)  {
+    padding-right: 2px;
+    float: right;
+}
+.content-bottom {
+    overflow: hidden;
+    margin: 0 21px;
+}
+.appearance {
+    width: 350px;
+    overflow: hidden;
+    float: left;
+}
+.appearance h3 {
+    font-size: 22px;
+    color: #666;
+    padding: 20px 0 18px 0;
+}
+.appearance li {
+    width: 350px;
+    border-bottom: 1px solid #d5d5d5;
+    margin-top: 12px ;
+    color: #999999;
+}
+.appearance li:last-child {
+    border-bottom: none;
+}
+.text {
+    width: 220px;
+    float: right;
+    color: #666666;
+}
+.personal {
+    width: 560px;
+    overflow: hidden;
+    float: right;
+}
+.personal h3 {
+    font-size: 22px;
+    color: #666;
+    padding: 20px 0 18px 0;
+}
+.personal li {
+    width: 560px;
+    border-bottom: 1px solid #d5d5d5;
+    margin-top: 12px ;
+    color: #999999;
+}
+.personal li:last-child {
+    border-bottom: none;
+}
+.text-personal {
+    width: 420px;
+    float: right;
+    color: #666666;
+}
