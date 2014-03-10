@@ -48,13 +48,38 @@ header {
     padding-top: 16px;
     font-size: 16px;
 }
-.info-contact:nth-of-type(2) img {
-     margin: 3px 5px 0 0 ;
-     vertical-align: top;
+.info-mail {
+    display: inline-block;
+    padding-right: 40px;
+    padding-top: 16px;
+    font-size: 16px;
 }
-.info-contact:nth-of-type(3) img {
-    margin: 0 5px 0 0 ;
-    vertical-align: top;
+.info-mail::before {
+    content: '';
+    display: inline-block;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAj0lEQVQ4y2NIS0s7CsT/ycSHGSjQDMboBkwHYjYgZsCB2YF4Ji4DcoD4NxAfAWJJLJqloN4FqcnCZgCI7QbE74D4KRBbImm2goqB5FygYlgNAGF1IL4FxD+AODUNAkDsm0CshqQOpwEgLATEe5DkdgOxIJoavAaAMAsQTwPiqVA2A6kGEMLUN4DshERRUgYAZuJaMGgxGw8AAAAASUVORK5CYII=");
+    width: 16px;
+    height: 12px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.info-telephone {
+    display: inline-block;
+    padding-right: 40px;
+    padding-top: 16px;
+    font-size: 16px;
+}
+.info-telephone:before {
+    content: '';
+    display: inline-block;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAQCAYAAADAvYV+AAAAWElEQVQoz2NIS0tzA+JHQPwfD74PxM4MRCiE4VsMSBwzIGbAgm1gapAVM+DBo4qpp9iUlEghiLEpfgfEtUD8EZti9IR0EYilgPg6toTkCcRPCTjhDigpAwBQRDcr5ou0VgAAAABJRU5ErkJggg==");
+    width: 11px;
+    height: 16px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-bottom: -1px;
+    margin-right: 5px;
 }
 .button {
     overflow: hidden;
@@ -155,23 +180,26 @@ header {
     margin: 21px 0;
     height: 23px;
 }
-.more-images p {
-    width: 130px;
-    height: 129px;
-    display: inline-block;
-    padding: 2px;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    margin-right: 7px;
+.more-images ul {
+    text-align: justify;
+    width: 100%;
 }
-.more-images p:hover {
-    width: 130px;
-    height: 129px;
+.more-images li {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    padding: 2px;
+}
+.more-images .helper {
+    width: 100%;
+    height: 0;
+    visibility: hidden
+}
+.more-images li:hover {
     display: inline-block;
     padding: 2px;
     border: 1px solid #d5d5d5;
     box-sizing: border-box;
-    margin-right: 7px;
 }
 .more-images img {
     height: 124px;
@@ -179,10 +207,6 @@ header {
 }
 .color {
     color: red;
-}
-.more-images p:nth-of-type(4)  {
-    padding-right: 2px;
-    float: right;
 }
 .content-bottom {
     overflow: hidden;
